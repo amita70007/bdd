@@ -1,0 +1,22 @@
+1. copy and paste scenario 2 to your feature file
+
+ # The second example has three steps
+  Scenario: Breaker joins a game
+    Given the jonny have started a game with the word "silky"
+    When the Breaker joins the Maker's game
+    Then the Breaker must guess a word with 5 characters
+
+save feature file
+
+2. on git bash check using "git status"
+
+3. "git add . " to change file to green so that you can commit
+
+3. "git commit -m 'added scenario 2'"
+
+4. "git push origin main"
+
+5. refresh your git hub and you should be able to see second commit. (press f5 or control + R ) on browser or click on arrow circle 
+
+
+
